@@ -1,0 +1,7 @@
+# Seguridad básica: denegar listado de directorios
+Options -Indexes
+
+# Proteger archivos de configuración y logs
+<FilesMatch "\.(log|env|json|md)$">
+    Require all denied
+</FilesMatch>
