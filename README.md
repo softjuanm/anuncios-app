@@ -28,13 +28,13 @@ cd anuncios-app
 cp .env.example .env
 ```
 
-Editar `.env` con tus propias contraseñas (nunca subir este archivo al repositorio):
+Editar `.env` con contraseñas
 
 ```dotenv
 DB_NAME=anuncios_db
 DB_USER=anuncios_user
-DB_PASS=tu_clave_segura_aqui
-DB_ROOT_PASS=tu_clave_root_aqui
+DB_PASS=
+DB_ROOT_PASS=
 ```
 
 ### 3. Construir y levantar los contenedores
